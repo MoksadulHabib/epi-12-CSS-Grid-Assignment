@@ -1,0 +1,364 @@
+
+/* Laptop 1440px Screen Responsive Start */
+
+@media (max-width: 1440px) {
+    .box{
+        width: 470px;
+        height: 160px;
+        top: 200px;
+        left: 700px;
+        padding: 1rem;
+         
+    }
+}
+
+/* Laptop 1024px Screen Responsive Start */
+
+
+@media (max-width: 1024px) {
+    
+    h1{
+        font-size: 22px;
+    }
+    h2{
+        font-size: 19px;
+    }
+    h3{
+        font-size: 17px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .box{
+        width: 470px;
+        height: 160px;
+        top: 110px;
+        left: 370px;
+        padding: 1rem;
+         
+    }
+    .grid_container{
+        display: grid;
+        grid-template-columns: 4fr 3fr;
+        gap: 2rem;
+    }
+    .sidebar_post_image{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        gap: 1.5rem;
+        align-items: center;
+    }
+    .contact_area_four{
+        margin-right: 8rem;
+        margin-top: -1rem;
+    }
+}
+
+/* Laptop 1024px Screen Responsive End */
+
+
+
+@media (max-width: 768px) {
+   
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .header_area{
+        padding: 1.5rem 0;
+    }
+    .menu_area ul{
+        gap: 1.5rem;
+    }
+    .menu_area{
+        margin-right: .2rem;
+    }
+    .box{
+        width: 350px;
+        height: 120px;
+        top: 100px;
+        left: 270px;
+        padding: 1rem;
+         
+    }
+    .blog_post_area{
+        padding: 3rem 0;
+    }
+
+    .grid_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5rem;
+    }
+    .sidebar_post_image{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+        align-items: center;
+    }
+    .sidebar_post_content a{
+        font-size: 16px;
+    }
+    .contact_area_two, 
+    .contact_area_three{
+        margin-top: -1.5em;
+    }
+    .grid_contact_container{
+        grid-template-columns: 1.8fr .9fr .9fr 1.5fr;
+    }
+    .social_image img{
+        width: 40px;
+        height: 40px;
+    }
+    .contact_area_four{
+        margin-right: 0;
+        margin-top: -4rem;
+    }
+
+}
+
+/* MOblile Large Screen Start  */
+
+@media (max-width: 425px) {
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    h4{
+        font-size: 14px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .menu_area ul{
+        gap: 1.2rem;
+    }
+    .box{
+        width: 270px;
+        height: 90px;
+        top: 40px;
+        left: 80px;
+        padding: .5rem;
+         
+    }
+    .box h1{
+        margin-top: .5rem;
+    }
+
+    .blog_post_area{
+        padding: 2rem 0;
+    }
+    .post{
+        border: 2px solid #E5E5E5;
+        padding: 1rem 1rem 2rem 1rem;
+    }
+    .grid_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5rem;
+    }
+
+    .sidebar_post_content h4{
+        margin-bottom: 0;
+    }
+    .sidebar_post_image{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 1rem;
+        align-items: center;
+    }
+    .sidebar_post_content a{
+        font-size: 14px;
+    }
+    .contact_area_two, 
+    .contact_area_three{
+        margin-top: -1em;
+    }
+    .grid_contact_container{
+        grid-template-columns: 3fr 1fr;
+        gap: 4rem;
+    }
+    .social_image img{
+        width: 30px;
+        height: 30px;
+    }
+    
+
+}
+
+/* MOblile Large Screen End */
+
+@media (max-width: 375px) {
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    h4{
+        font-size: 14px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .menu_area ul{
+        gap: 1rem;
+    }
+    .box{
+        width: 250px;
+        height: 85px;
+        top: 30px;
+        left: 70px;
+        padding: .5rem;  
+    }
+    .box h1{
+        margin-top: .5rem;
+    }
+
+    .grid_container{
+        display: grid;
+        grid-template-columns: fr;
+        gap: .5rem;
+    }
+    aside h2{
+        margin-top: 1rem;
+    }
+    .sidebar_post_content h4{
+        margin-bottom: 0;
+    }
+    .sidebar_post_image{
+        display: grid;
+        grid-template-columns: .8fr 1.6fr;
+        gap: 1rem;
+        align-items: center;
+    }
+    .post{
+        border: 1px solid #E5E5E5;
+        padding: 1rem 1rem 2rem 1rem;
+    }
+    .grid_contact_container{
+        grid-template-columns: 3fr 1fr;
+        gap: 4rem;
+    }
+    .social_image img{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+
+
+
+@media (max-width: 320px) {
+    h1{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    h4{
+        font-size: 12px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .menu_area ul{
+        gap: .8rem;
+    }
+    .menu_area{
+        margin-right: 0;
+    }
+    .box{
+        width: 180px;
+        height: 60px;
+        top: 30px;
+        left: 80px;
+        padding: .4rem;
+        
+        
+    }
+    .box p{
+        font-size: 8px;
+    }
+    .box h1{
+        font-size: 12px;
+        margin-top: .5rem;
+    }
+
+    .blog_post_area{
+        padding: 2rem 0;
+    }
+
+    .grid_container{
+        display: grid;
+        grid-template-columns: 2fr;
+        gap: .5rem;
+    }
+    .sidebar_post_image{
+        display: grid;
+        grid-template-columns: .5fr 1.4fr;
+        gap: .8rem;
+        align-items: center;
+    }
+    
+    .sidebar_post_content h4{
+        font-size: 11px;
+    }
+    .sidebar_post_content a{
+        font-size: 10px;
+    }
+    
+    .post{
+        border: 1px solid #E5E5E5;
+        padding: .5rem .5rem 1.5rem .5rem;
+    }
+    .post img{
+        margin-bottom: .5rem;
+    }
+    .post h3{
+        margin: .5rem 0;
+    }
+
+    .contact_area_two, 
+    .contact_area_three{
+        margin-top: -2.3em;
+    }
+    .grid_contact_container{
+        grid-template-columns: 3fr 1fr;
+        gap: 4rem;
+    }
+    .social_image img{
+        width: 30px;
+        height: 30px;
+    }
+    .contact_area_four{
+        margin-right: .5rem;
+    }
+    
+}
